@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    padding: 50px;
+    background-color: FFE5E5;
+}
+
+.titre h2 {
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score h1 {
+    text-align: center;
+    margin: 0px;
+    color: #ad6363;
+}
+
+.score h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.progress {
+    width: 150px;
+    height: 30px;
+    /* background: pink; */
+    border: 2px solid #db9a9a;
+    overflow: hidden;
+}
+
+.barr {
+    width: 0%;
+    height: 100%;
+    background: #C59797;
+}
+
+.boxs h1 {
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.box {
+    box-sizing: border-box;
+    background: #C59797;
+    width: 5%;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+
+}
+
+.innerbox {
+    box-sizing: border-box;
+    background: #ffffff;
+    width: 55%;
+    height: 50px;
+    padding: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #C59797;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+
+}
+
+button:hover {
+    background-color: #ad6363;
+}
+
+#reset {
+    display: none;
+    /* Initially hide the reset button */
+}
