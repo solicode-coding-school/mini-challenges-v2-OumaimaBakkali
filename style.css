@@ -1,12 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-
 }
 
 body {
     padding: 50px;
-    background-color: FFE5E5;
+    background-color: #FFE5E5;
 }
 
 .titre h2 {
@@ -34,13 +33,12 @@ body {
 .progress {
     width: 150px;
     height: 30px;
-    /* background: pink; */
     border: 2px solid #db9a9a;
     overflow: hidden;
 }
 
 .barr {
-    width: 0%;
+    width: 20%;
     height: 100%;
     background: #C59797;
 }
@@ -50,7 +48,9 @@ body {
     margin: 30px;
     padding: 10px;
 }
-
+.cont{
+   display: block;
+}
 .input {
     display: flex;
     justify-content: center;
@@ -65,7 +65,6 @@ body {
     text-align: center;
     padding: 15px;
     color: #ffffff;
-
 }
 
 .innerbox {
@@ -84,7 +83,6 @@ button {
     border: none;
     cursor: pointer;
     margin: 5px;
-
 }
 
 button:hover {
@@ -93,5 +91,4 @@ button:hover {
 
 #reset {
     display: none;
-    /* Initially hide the reset button */
 }
